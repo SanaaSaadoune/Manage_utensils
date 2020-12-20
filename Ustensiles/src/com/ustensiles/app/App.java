@@ -75,7 +75,6 @@ public class App {
 							double cote = reader.nextDouble();
 							
 							conn.InsertReq("INSERT INTO assiettecarree (anneeFabrication,cote) VALUES ('"+annee+"','"+cote+"')");
-							break;
 							
 		                    }
 
@@ -94,7 +93,7 @@ public class App {
 							double rayon = reader.nextDouble();
 							
 							conn.InsertReq("INSERT INTO assietteronde (anneeFabrication,rayon) VALUES ('"+annee+"','"+rayon+"')");
-							break;	
+							
 		                    }
 
 		                    catch (Exception e) {
@@ -113,7 +112,6 @@ public class App {
 							double longueur = reader.nextDouble();
 							
 							conn.InsertReq("INSERT INTO cuilliere (anneeFabrication,longueur) VALUES ('"+annee+"','"+longueur+"')");
-							break;
 							
 		                    }
 
@@ -144,7 +142,7 @@ public class App {
 							int annee = reader.nextInt();
 							
 							conn.UpdateReq("UPDATE assiettecarree SET anneeFabrication='"+annee+"' WHERE id="+id+"");
-							break;	
+							
 		                    }
 
 		                    catch (Exception e) {
@@ -162,7 +160,7 @@ public class App {
 							int annee = reader.nextInt();
 							
 							conn.UpdateReq("UPDATE assietteronde SET anneeFabrication='"+annee+"' WHERE id="+id+"");
-							break;
+							
 		                    }
 
 		                    catch (Exception e) {
@@ -180,7 +178,6 @@ public class App {
 							int annee = reader.nextInt();
 							
 							conn.UpdateReq("UPDATE cuilliere SET anneeFabrication='"+annee+"' WHERE id="+id+"");
-							break;
 							
 		                    }
 

@@ -1,6 +1,6 @@
 package com.ustensiles.models;
 
-public class Ustensile {
+public abstract class Ustensile {
 
 	private int anneeFabrication;
 
@@ -25,11 +25,6 @@ public class Ustensile {
 	public String toString() {
 		return "Ustensile [anneeFabrication=" + anneeFabrication + "]";
 	}
-	
-	
-	public int AfficherValeurTotale(int sommeAssiettesRondes,int sommeAssiettesCarrees, int sommeCuillieres) {
-        return  sommeAssiettesRondes + sommeAssiettesCarrees + sommeCuillieres;
-    }
 	
 	
 }

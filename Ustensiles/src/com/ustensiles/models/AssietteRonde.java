@@ -1,6 +1,5 @@
 package com.ustensiles.models;
 
-import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
 import com.ustensiles.config.ConnectDB;

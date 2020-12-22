@@ -1,7 +1,7 @@
 package com.ustensiles.models;
 
 
-public class Assiette extends Ustensile {
+public abstract class Assiette extends Ustensile {
 	
 	public Assiette() {
 		
@@ -11,11 +11,6 @@ public class Assiette extends Ustensile {
 		super(annneFabrication);
 		
 	}
-	
-	public double SommeSurfaceAssiettes(double sommeSurfacesAssiettesRondes, double sommeSurfacesAssiettesCarrees ) {
 
-		return  sommeSurfacesAssiettesRondes + sommeSurfacesAssiettesCarrees;
-		
-	}
 	
 }
